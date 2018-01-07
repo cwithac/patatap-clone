@@ -2,7 +2,7 @@
 
 [Hosted](https://patatap-mini-clone.herokuapp.com/) & [Repository](https://github.com/cwithac/patatap-clone)
 
-_[Patatap](http://patatap.com/) minified clone.  Play sounds upon keypress with animations._
+_[Patatap](http://patatap.com/) minified clone.  Play sounds upon keypress (letter keys only) with animations._
 
 ### Technologies
 ```
