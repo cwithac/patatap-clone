@@ -8,14 +8,66 @@
     <script src="js/paper-full.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/paperscript" canvas="myCanvas">
 
-    var sound = new Howl({
-      src: ['audio/bubbles.mp3']
-    });
+    var keyData = {
+      a: {
+        color: '#DC143C',
+        sound: new Howl({
+          src: ['audio/bubbles.mp3']
+        })
+      },
+      s: {
+        color: '#FF7F50',
+        sound: new Howl({
+          src: ['audio/clay.mp3']
+        })
+      },
+      d: {
+        color: '#FFFF00',
+        sound: new Howl({
+          src: ['audio/confetti.mp3']
+        })
+      },
+      f: {
+        color: '#9ACD32',
+        sound: new Howl({
+          src: ['audio/corona.mp3']
+        })
+      },
+      g: {
+        color: '#2E8B57',
+        sound: new Howl({
+          src: ['audio/dotted-spiral.mp3']
+        })
+      },
+      h: {
+        color: '#0000CD',
+        sound: new Howl({
+          src: ['audio/flash-1.mp3']
+        })
+      },
+      j: {
+        color: '#87CEFA',
+        sound: new Howl({
+          src: ['audio/flash-2.mp3']
+        })
+      },
+      k: {
+        color: '#9400D3',
+        sound: new Howl({
+          src: ['audio/flash-3.mp3']
+        })
+      },
+      l: {
+        color: '#FF1493',
+        sound: new Howl({
+          src: ['audio/glimmer.mp3']
+        })
+      }
+    };
 
     var circles = [];
 
     function onKeyDown(event) {
-      sound.play();
       var maxPoint = new Point(view.size.width, view.size.height);
       var randomPoint = Point.random();
       var point = maxPoint * randomPoint;
