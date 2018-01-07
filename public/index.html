@@ -8,9 +8,14 @@
     <script src="js/paper-full.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/paperscript" canvas="myCanvas">
 
+    var sound = new Howl({
+      src: ['audio/bubbles.mp3']
+    });
+
     var circles = [];
 
     function onKeyDown(event) {
+      sound.play();
       var maxPoint = new Point(view.size.width, view.size.height);
       var randomPoint = Point.random();
       var point = maxPoint * randomPoint;
