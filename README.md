@@ -1,6 +1,6 @@
 # Patatap Clone
 
-[Hosted]() & [Repository](https://github.com/cwithac/patatap-clone)
+[Hosted](https://patatap-mini-clone.herokuapp.com/) & [Repository](https://github.com/cwithac/patatap-clone)
 
 _[Patatap](http://patatap.com/) minified clone.  Play sounds upon keypress with animations._
 
