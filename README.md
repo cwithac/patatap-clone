@@ -8,6 +8,7 @@ _[Patatap](http://patatap.com/) minified clone.  Play sounds upon keypress with 
 ```
 - PaperJS
 - HowlerJS
+- NPM Express
 ```
 
 ### Resources
