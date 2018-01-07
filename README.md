@@ -11,6 +11,8 @@ _[Patatap](http://patatap.com/) minified clone.  Play sounds upon keypress (lett
 - NPM Express
 ```
 
+![image](https://i.imgur.com/n6gJUMl.png)
+
 ### Resources
 
 - Modeled after 'Patatap Clone Project' via [Udemy: The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp)
