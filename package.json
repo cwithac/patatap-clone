@@ -19,6 +19,7 @@
   "homepage": "https://github.com/cwithac/patatap-clone#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "howler": "^2.0.7",
     "paper": "^0.11.5"
   }
 }
