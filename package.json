@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cwithac/patatap-clone#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "paper": "^0.11.5"
   }
 }
