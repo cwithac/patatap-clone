@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
 body, html {
   height: 100%;
   margin: 0;
@@ -6,4 +8,10 @@ body, html {
 canvas {
   width: 100%;
   background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  margin: 0;
 }
