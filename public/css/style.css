@@ -3,6 +3,7 @@
 body, html {
   height: 100%;
   margin: 0;
+  color: black;
 }
 
 canvas {
@@ -10,8 +11,24 @@ canvas {
   background-color: black;
 }
 
-h1 {
+h1, h6 {
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
   margin: 0;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+  color: gray;
 }
